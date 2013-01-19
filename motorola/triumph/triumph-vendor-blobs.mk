@@ -44,6 +44,9 @@ PRODUCT_COPY_FILES += \
 
 # other binaries (Sharp 2.3.5)
 PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/tune2fs:/system/bin/tune2fs \
+    vendor/motorola/triumph/proprietary/e2fsck:/system/bin/e2fsck \
+    vendor/motorola/triumph/proprietary/tune2fs:/system/bin/tune2fs \
     vendor/motorola/triumph/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/motorola/triumph/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/motorola/triumph/proprietary/bluetoothd:/system/bin/bluetoothd \
@@ -67,6 +70,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libgsl.so:/system/lib/libgsl.so \
     vendor/motorola/triumph/proprietary/libgsl.so:/obj/lib/libgsl.so  
 
+#MM
+PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/mm-video-encdrv-test:/system/bin/mm-video-encdrv-test\
+    vendor/motorola/triumph/proprietary/mm-venc-omx-test720p:/system/bin/mm-venc-omx-test720p \
+    vendor/motorola/triumph/proprietary/mm-vdec-omx-test:/system/bin/mm-vdec-omx-test \
+    vendor/motorola/triumph/proprietary/mm-video-driver-test:/system/bin/mm-video-driver-test
 
 
 # OMX (Cherry)
@@ -95,6 +104,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libomx_sharedlibrary.so:/system/lib/libomx_sharedlibrary.so \
         vendor/motorola/triumph/proprietary/libomx_aacdec_sharedlibrary.so:/system/lib/libomx_aacdec_sharedlibrary.so \
+        vendor/motorola/triumph/proprietary/libomx_aacdec_sharedlibrary.so:obj/lib/libomx_aacdec_sharedlibrary.so \
         vendor/motorola/triumph/proprietary/libomx_amrdec_sharedlibrary.so:/system/lib/libomx_amrdec_sharedlibrary.so \
         vendor/motorola/triumph/proprietary/libomx_amrenc_sharedlibrary.so:/system/lib/libomx_amrenc_sharedlibrary.so \
         vendor/motorola/triumph/proprietary/libomx_avcdec_sharedlibrary.so:/system/lib/libomx_avcdec_sharedlibrary.so \
@@ -128,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libavformat.so:/system/lib/libavformat.so \
     vendor/motorola/triumph/proprietary/libavutil.so:/system/lib/libavutil.so \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:/system/lib/libaudioalsa.so \
-    vendor/motorola/triumph/proprietary/libaudioalsa.so:/obj/lib/libaudioalsa.so   
+    vendor/motorola/triumph/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so   
 
 
 # RIL (Triumph-Stock)

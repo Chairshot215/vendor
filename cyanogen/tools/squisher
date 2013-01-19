@@ -150,7 +150,7 @@ rm -rf $REPACK/ota/system/app/Cyanbread.apk
 # Determine what to name the new signed package
 	MODVERSION=`sed -n -e'/ro\.modversion/s/^.*CyanogenMod-//p' $REPACK/ota/system/build.prop`
 	: ${MODVERSION:=nightly}
-	OUTFILE=$OUT/MTDEV-CM$MODVERSION.zip
+	OUTFILE=$OUT/Starship_Triumph_WX-Class_435-$MODVERSION.zip
 
 # Pack it up and sign
 printf "Zipping package..."

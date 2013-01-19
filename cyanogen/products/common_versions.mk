@@ -1,6 +1,6 @@
-PRODUCT_VERSION_MAJOR = 7
-PRODUCT_VERSION_MINOR = 2
-PRODUCT_VERSION_MAINTENANCE = 0
+#PRODUCT_VERSION_MAJOR = 7
+#PRODUCT_VERSION_MINOR = 2
+#PRODUCT_VERSION_MAINTENANCE = 0
 
 ## Our eng-builds get build_desc, force a user-like build_id
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=$(BUILD_ID)
@@ -37,4 +37,4 @@ else
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=CyanogenMod-$(CMVERSION)
+    ro.modversion=Starship_Triumph_WX-Class_435-$(CMVERSION)
