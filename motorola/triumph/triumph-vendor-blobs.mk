@@ -44,9 +44,9 @@ PRODUCT_COPY_FILES += \
 
 # other binaries (Sharp 2.3.5)
 PRODUCT_COPY_FILES += \
+    vendor/motorola/triumph/proprietary/mke2fs:/system/bin/mke2fs \
     vendor/motorola/triumph/proprietary/tune2fs:/system/bin/tune2fs \
     vendor/motorola/triumph/proprietary/e2fsck:/system/bin/e2fsck \
-    vendor/motorola/triumph/proprietary/tune2fs:/system/bin/tune2fs \
     vendor/motorola/triumph/proprietary/netmgrd:/system/bin/netmgrd \
     vendor/motorola/triumph/proprietary/rmt_storage:/system/bin/rmt_storage \
     vendor/motorola/triumph/proprietary/bluetoothd:/system/bin/bluetoothd \
@@ -94,8 +94,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libOmxQcelp13Dec.so:/system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/triumph/proprietary/libOmxQcelp13Enc.so:/system/lib/libOmxQcelp13Enc.so \
     vendor/motorola/triumph/proprietary/libOmxVdec.so:/system/lib/libOmxVdec.so \
+    vendor/motorola/triumph/proprietary/libOmxVdec.so:/obj/lib/libOmxVdec.so \
     vendor/motorola/triumph/proprietary/libOmxVenc.so:/system/lib/libOmxVenc.so \
+    vendor/motorola/triumph/proprietary/libOmxVenc.so:/obj/lib/libOmxVenc.so \
     vendor/motorola/triumph/proprietary/libOmxCore.so:/system/lib/libOmxCore.so \
+    vendor/motorola/triumph/proprietary/libOmxCore.so:/obj/lib/libOmxCore.so \
     vendor/motorola/triumph/proprietary/libOmxWmaDec.so:/system/lib/libOmxWmaDec.so 
 
 
@@ -160,7 +163,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libril-qcril-hook-oem.so:/system/lib/libril-qcril-hook-oem.so \
     vendor/motorola/triumph/proprietary/libdiag.so:/system/lib/libdiag.so \
     vendor/motorola/triumph/proprietary/libqmi.so:/system/lib/libqmi.so \
+    vendor/motorola/triumph/proprietary/libqmi.so:/obj/lib/libqmi.so \
     vendor/motorola/triumph/proprietary/libqmiservices.so:/system/lib/libqmiservices.so \
+    vendor/motorola/triumph/proprietary/libqmiservices.so:/obj/lib/libqmiservices.so \
     vendor/motorola/triumph/proprietary/libdsm.so:/system/lib/libdsm.so \
     vendor/motorola/triumph/proprietary/libqueue.so:/system/lib/libqueue.so \
     vendor/motorola/triumph/proprietary/libdll.so:/system/lib/libdll.so \
@@ -168,6 +173,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libgstk_exp.so:/system/lib/libgstk_exp.so \
     vendor/motorola/triumph/proprietary/libwms.so:/system/lib/libwms.so \
     vendor/motorola/triumph/proprietary/libnv.so:/system/lib/libnv.so \
+    vendor/motorola/triumph/proprietary/libnv.so:/obj/lib/libnv.so \
     vendor/motorola/triumph/proprietary/libwmsts.so:/system/lib/libwmsts.so \
     vendor/motorola/triumph/proprietary/libpbmlib.so:/system/lib/libpbmlib.so \
     vendor/motorola/triumph/proprietary/libdss.so:/system/lib/libdss.so \
